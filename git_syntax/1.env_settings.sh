@@ -43,3 +43,4 @@ git checkout -b main #main 브랜치 생성 및 변경
 # 주로, 빌드된 파일 또는 중요 암호 등이 담긴 파일을 제외
 # 만약 이미 git에서 추적되고 있는 파일은 제외하려면 캐시 삭제 필요
 git rm -r --cached .
+
