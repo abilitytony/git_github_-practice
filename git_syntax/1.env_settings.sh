@@ -25,3 +25,16 @@ git config --list
 git init
 # 2-2) 원격지 주소를 추가
 git remote add origin 원격지주소
+
+
+# 다른 repo에서 clone을 받아 나의 repo로 올리기
+# 1.커밋이력 그대로 가져가기
+git clone https://github.com/kimseonguk197/kafka-practice.git
+git remote set -url origin 레포주소 # 원격지 주소 변경
+
+# 2. 커밋이력 없이 가져가기
+# .git 폴더 삭제
+git init
+git remote add origin 원격지 주소
+git checkout -b main #main 브랜치 생성 및 변경
+# git add, git commit, git push 작업 진행
