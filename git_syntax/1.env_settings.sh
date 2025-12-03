@@ -33,6 +33,7 @@ git clone https://github.com/kimseonguk197/kafka-practice.git
 git remote set -url origin 레포주소 # 원격지 주소 변경
 
 # 2. 커밋이력 없이 가져가기
+# 원격에서 클론
 # .git 폴더 삭제
 git init
 git remote add origin 원격지 주소
